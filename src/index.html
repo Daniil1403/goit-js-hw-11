@@ -3,37 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HW-JS-10</title>
-    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" />
+    <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <section class="section scroll-container" id="scroll-container-id">
-      <form class="search-form" id="search-form">
-        <input
-          type="text"
-          name="searchQuery"
-          autocomplete="off"
-          placeholder="Search images..."
-        />
-        <button type="submit">Search</button>
-      </form>
-
-      <div class="gallery"></div>
-      <img
-        class="loader hidden"
-        src="./images/ZZ5H.gif"
-        alt="loader"
-        width="40"
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
       />
-
-      <img
-        class="home-btn hidden"
-        src="./images/arrow-up.svg"
-        alt="arrow"
-        width="35px"
-      />
-    </section>
-    <script type="module" src="./index.js"></script>
+      <button type="submit">Search</button>
+    </form>
+    <div class="gallery">
+      <!-- Карточки изображений -->
+    </div>
+    <button type="button" class="load-more is-hidden">More...</button>
+   
+      
+      </h2>
+      
+    </div>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>
